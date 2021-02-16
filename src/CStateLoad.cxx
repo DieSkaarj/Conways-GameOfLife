@@ -146,7 +146,9 @@ void CStateLoad::onInput(Event* e){
 		case KEY_ENTER:
 		case 10:{
 
-			GameOfLife::load(field_buffer(current_field(m_form),0));
+			if(field_buffer(current_field(m_form),0)!=nullptr)
+				GameOfLife::load(field_buffer(current_field(m_form),0));
+
 			exit(NTime::getTicks());
 		}
 		break;
