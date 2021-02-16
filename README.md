@@ -1,5 +1,5 @@
 # Conways-GameOfLife
-Implementation of Conway's Game of Life using NCurses written in C &amp; C++.
+Implementation of Conway's Game of Life using *NCurses* written in C &amp; C++.
 
 **Requires:** C++17
 
