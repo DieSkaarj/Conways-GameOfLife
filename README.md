@@ -2,6 +2,7 @@
 Implementation of Conway's Game of Life in C &amp; C++.
 
 Requires: C++17.
+
 Dependencies: libncurses-dev
 
 Compile with:
