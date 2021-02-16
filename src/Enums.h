@@ -1,0 +1,25 @@
+#pragma once
+
+enum ECellState{
+
+	CELL_DEAD=0,
+	CELL_ALIVE
+};
+
+enum EGameState{
+
+	MODE_PAINT=0,
+	MODE_PAUSE,
+	MODE_PLAY,
+	MODE_SAVE,
+	MODE_LOAD
+};
+
+enum EFrameType{
+
+	FRAME_LEFT=0,
+	FRAME_MIDDLE,
+	FRAME_RIGHT,
+	FRAME_MESSAGES,
+	FRAME_CURSOR
+};
