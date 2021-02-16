@@ -5,6 +5,6 @@ Implementation of Conway's Game of Life using *NCurses* written in C &amp; C++.
 
 **Dependencies:** libncurses-dev
 
-Compile:
+After clongin the repo compile with:
 
-> g++ -ggdb -std=c++17 -lncurses -lpanel -lform -lmenu *.cxx -o ./CGameOfLife
+> g++ -ggdb -std=c++17 -lncurses -lpanel -lform -lmenu ./src/*.cxx -o ./CGameOfLife
